@@ -25,3 +25,9 @@ mail2misp.py will look for unread emails and checks them for Indicators of Compr
 * iocparser:	`python3 -m pip install iocparser`
 * pyzmail:		`python3 -m pip install pyzmail`
 
+### Really good ideas
+* sharing is set to 'this community'. Be sure you have permission to share from the source of the intel.
+* remove any signature blocks from the email you are about to forward. The urls and email addresses would be recognised as artifacts
+* remove (other) links that are not IOCs
+* before you publish: review the event for what you've tagged for IDS (virustotal-links for example can be useful, but should not be exported to an IDS rule)
+* remove things like FW: and RE: from the subject line.
