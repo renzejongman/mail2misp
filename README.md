@@ -20,4 +20,8 @@ mail2misp.py will look for unread emails and checks them for Indicators of Compr
 * `PUBLISH_ALERTS`	Set to True if you want the alerts automatically published. Leave to False if you want to add tags and evaluate first (recommended)
 * `EMAIL_ALERTS`	If this one AND `PUBLISH_ALERT` are set to True, members of your organisation will receive an email when the event is published.
 
+### Dependencies
+* imapclient:	`python3 -m pip install imapclient`
+* iocparser:	`python3 -m pip install iocparser`
+* pyzmail:		`python3 -m pip install pyzmail`
 
