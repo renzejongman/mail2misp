@@ -1,0 +1,4 @@
+#!/Users/fourteen/python/mail2misp/bin/python3.6
+# EASY-INSTALL-SCRIPT: 'pyzmail==1.0.3','pyzinfomail'
+__requires__ = 'pyzmail==1.0.3'
+__import__('pkg_resources').run_script('pyzmail==1.0.3', 'pyzinfomail')
