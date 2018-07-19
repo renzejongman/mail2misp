@@ -5,6 +5,7 @@ Mail to MISP (mail2misp) lets you monitor the inbox of a given email address. Ju
 mail2misp.py will look for unread emails and checks them for Indicators of Compromise (IOCs). If it finds any, a new event in MISP will be created, with the title being the subject of the email and the IOCs as attributes of the event.
 
 ### Installation
+* Set-up a dedicated email-address. For example: `add-event@your-misp-domain.com`
 * Clone this repository: `git clone https://github.com/renzejongman/mail2misp`
 * Provide your email (IMAP) details and MISP instance details in config.py (more detail below)
 * Set up a line in your crontab to run the script regularly. For example:
